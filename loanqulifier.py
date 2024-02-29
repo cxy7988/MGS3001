@@ -20,8 +20,8 @@ if st.button("Submit"):
 else:
     st.write("Please enter your data")
 
-import streamlit as st
-import numpy as np
-
-dataframe = np.random.randn(10, 20)
-st.dataframe(dataframe)
+# import streamlit as st
+# import numpy as np
+#
+# dataframe = np.random.randn(10, 20)
+# st.dataframe(dataframe)
