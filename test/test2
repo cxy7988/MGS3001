@@ -1,0 +1,7 @@
+import turtle
+
+turtle.cycle(20)
+x = turtle.xcor()
+y = turtle.ycor()
+
+print(x, y)
