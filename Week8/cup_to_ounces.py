@@ -5,7 +5,7 @@ def main():
 
 
 def getCup():
-    cups = float(input("Enter the number of cups: "))
+    cups = int(input("Enter the number of cups: "))
     return cups
 
 
