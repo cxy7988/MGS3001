@@ -1,0 +1,10 @@
+def main():
+    name1 = input("Friens #1: ")
+    name2 = input("Friens #2: ")
+    name3 = input("Friens #3: ")
+    myfile = open("friends.txt","w")
+    myfile.write(name1+"\n")
+    myfile.write(name2+"\n")
+    myfile.write(name3+"\n")
+    myfile.close()
+    print("The name is added to the file")
